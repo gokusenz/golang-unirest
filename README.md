@@ -1,4 +1,4 @@
-# Unitrest for Golang
+# Unirest for Golang
 
 > Unirest is a set of Lightweight HTTP Request Client Libraries.
 
