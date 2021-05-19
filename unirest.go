@@ -40,7 +40,7 @@ func Get(req Request) (Response, error) {
 	url += req.QueryString
 
 	// Create an HTTP client
-	c := &http.Client{Timeout: 10 * time.Second}
+	c := &http.Client{Timeout: 30 * time.Second}
 
 	r, err := http.NewRequest(http.MethodGet, url, nil)
 	if err != nil {
